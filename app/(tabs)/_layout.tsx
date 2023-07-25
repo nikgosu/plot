@@ -46,7 +46,7 @@ export default function TabLayout() {
           headerTitle: 'NEW PLOT',
           tabBarIcon: ({ color }) => <Entypo name="new-message" size={25} color={color} />,
           headerLeft: () => (
-            <Link href="/modal" asChild>
+            <Link href="/feed" asChild>
               <Pressable>
                 {({ pressed }) => (
                   <AntDesign
