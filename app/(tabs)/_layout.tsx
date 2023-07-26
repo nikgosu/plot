@@ -24,7 +24,7 @@ export default function TabLayout() {
         tabBarStyle: {padding: 10}
       }}>
       <Tabs.Screen
-        name="feed"
+        name="index"
         options={{
           title: '',
           tabBarIcon: ({ color }) => <Feather size={25} name="home" color={color} />,
@@ -46,7 +46,7 @@ export default function TabLayout() {
           headerTitle: 'NEW PLOT',
           tabBarIcon: ({ color }) => <Entypo name="new-message" size={25} color={color} />,
           headerLeft: () => (
-            <Link href="/feed" asChild>
+            <Link href="/app/(tabs)" asChild>
               <Pressable>
                 {({ pressed }) => (
                   <AntDesign
