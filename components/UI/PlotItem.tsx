@@ -129,7 +129,8 @@ const styles = StyleSheet.create({
     width: 1,
     flex: 1,
     marginTop: 10,
-    zIndex: -1
+    zIndex: -1,
+    opacity: 0.5
   },
   plotSide: {
     flexDirection: 'column',
